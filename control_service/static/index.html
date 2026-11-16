@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AD9910 Control</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <header>
+    <div>
+      <p class="eyebrow">AD9910 · HOST APPLIED STATE</p>
+      <h1>AD9910 Control</h1>
+      <p class="subtitle">页面显示最近一次成功下发的参数；写入即时生效，不额外回读硬件校验。方向键按光标所在位调节，自动生效。</p>
+    </div>
+    <div class="status-card">
+      <span id="statusDot" class="status-dot"></span>
+      <div>
+        <strong id="status">连接中</strong>
+        <small>revision <span id="revision">—</span></small>
+        <small>Web <span id="webEndpoint">—</span></small>
+        <small>RPyC 可连接 <span id="rpycEndpoint">—</span></small>
+        <small>REF_CLK <span id="refclk">—</span> MHz → SYSCLK <span id="sysclk">—</span> MHz</small>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="toolbar panel">
+      <label>配置文件<select id="configSelect"></select></label>
+      <button id="loadConfig" class="secondary">加载配置</button>
+      <label>保存为<input id="configFile" type="text" placeholder="new-config"></label>
+      <button id="saveConfig" class="secondary" disabled>保存当前状态</button>
+      <label>设备<select id="deviceSelect"></select></label>
+      <label class="search">搜索参数<input id="search" type="search" placeholder="频率 / 相位 / 幅度"></label>
+    </section>
+
+    <section class="device panel">
+      <div><p class="eyebrow">ACTIVE CONFIG</p><strong id="activeConfig">—</strong></div>
+      <div class="device-fields">
+        <label>名称<input id="devName" type="text"></label>
+        <label>Active Profile<select id="devProfile">
+          <option value="0">0</option><option value="1">1</option>
+          <option value="2">2</option><option value="3">3</option>
+          <option value="4">4</option><option value="5">5</option>
+          <option value="6">6</option><option value="7">7</option>
+        </select></label>
+        <label class="check"><input id="devAsf" type="checkbox"> Enable Profile ASF</label>
+        <label class="check"><input id="devSine" type="checkbox"> Enable Sine Out</label>
+      </div>
+    </section>
+
+    <section class="table-panel panel">
+      <div class="table-head">
+        <div><h2>Profiles</h2><p>↑/↓ 按位调节自动生效 · 输入数字后按回车提交</p></div>
+        <div class="actions">
+          <button id="clearOutputs" class="danger ghost">清除输出</button>
+        </div>
+      </div>
+      <div id="message" class="message" hidden></div>
+      <div class="table-scroll">
+        <table>
+          <thead><tr><th>Profile</th><th>频率 / MHz</th><th>相位 / π</th><th>幅度 (0~1)</th></tr></thead>
+          <tbody id="profileRows"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <p class="shutdown-warning">关闭页面或正常退出服务不会关闭设备输出；需要停光时请先执行“清除输出”。</p>
+  </main>
+  <script src="/static/app.js"></script>
+</body>
+</html>

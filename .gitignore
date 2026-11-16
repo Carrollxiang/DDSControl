@@ -1,0 +1,29 @@
+# ---- 大文件 / 日志（禁止入库）----
+*.log
+*.tdms
+USB3106A.log
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+venv/
+.venv/
+env/
+
+# ---- IDE / 编辑器 ----
+.idea/
+*.iml
+.vscode/
+*.swp
+
+# ---- 系统 ----
+Thumbs.db
+desktop.ini
+.DS_Store

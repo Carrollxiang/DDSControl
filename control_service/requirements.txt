@@ -1,0 +1,21 @@
+# ============================================================
+# AD9910 Control Service runtime dependencies (Web UI + RPyC backend)
+# ============================================================
+# IMPORTANT:
+#   * The AD9910 USB DLL (devices/generators/adiclockevals/ADI_CYUSB_USB4.dll)
+#     is 32-bit, so a 32-bit Python is REQUIRED
+#     (recommended: Python 3.10 32-bit from python.org/downloads/windows,
+#      select "Windows installer (32-bit)").
+#   * Versions below are verified on Python 3.10.0 (32-bit).
+#
+# Install (inside the 32-bit Python environment):
+#   python -m pip install --upgrade pip
+#   python -m pip install -r requirements.txt
+# ============================================================
+
+numpy==2.1.0
+tornado==6.5.7
+rpyc==6.0.2
+
+# ---- Optional: to run the test suite (control_service/tests/) ----
+# pytest>=8

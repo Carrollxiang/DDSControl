@@ -1,0 +1,294 @@
+{
+  "format_version": 1,
+  "name": "2026-11-10-181800",
+  "device_info": {
+    "0666": {
+      "name": "not 780 X- Local Detection_is raman S&H",
+      "active_profile": 1,
+      "enable_profile_asf": true,
+      "enable_sine_out": false,
+      "profiles": [
+        {
+          "freq": 230.0,
+          "phase": 0.0,
+          "amp": 0.0
+        },
+        {
+          "freq": 237.03,
+          "phase": 0.0,
+          "amp": 0.02001954045426618
+        },
+        {
+          "freq": 0.0,
+          "phase": 0.0,
+          "amp": 0.0
+        },
+        {
+          "freq": 0.0,
+          "phase": 0.0,
+          "amp": 0.0
+        },
+        {
+          "freq": 0.0,
+          "phase": 0.0,
+          "amp": 0.0
+        },
+        {
+          "freq": 0.0,
+          "phase": 0.0,
+          "amp": 0.0
+        },
+        {
+          "freq": 0.0,
+          "phase": 0.0,
+          "amp": 0.0
+        },
+        {
+          "freq": 0.0,
+          "phase": 0.0,
+          "amp": 0.0
+        }
+      ]
+    },
+    "4008": {
+      "name": "1013 AOM",
+      "active_profile": 1,
+      "enable_profile_asf": true,
+      "enable_sine_out": false,
+      "profiles": [
+        {
+          "freq": 110.0000001,
+          "phase": 0.0,
+          "amp": 0.07922363283768298
+        },
+        {
+          "freq": 110.0000001,
+          "phase": 0.0,
+          "amp": 0.059398030905509575
+        },
+        {
+          "freq": 0.0,
+          "phase": 0.0,
+          "amp": 0.0
+        },
+        {
+          "freq": 0.0,
+          "phase": 0.0,
+          "amp": 0.0
+        },
+        {
+          "freq": 0.0,
+          "phase": 0.0,
+          "amp": 0.0
+        },
+        {
+          "freq": 0.0,
+          "phase": 0.0,
+          "amp": 0.0
+        },
+        {
+          "freq": 0.0,
+          "phase": 0.0,
+          "amp": 0.0
+        },
+        {
+          "freq": 0.0,
+          "phase": 0.0,
+          "amp": 0.0
+        }
+      ]
+    },
+    "0443": {
+      "name": "1529 Shielding",
+      "active_profile": 0,
+      "enable_profile_asf": true,
+      "enable_sine_out": false,
+      "profiles": [
+        {
+          "freq": 82.3300018,
+          "phase": 0.0,
+          "amp": 0.2
+        },
+        {
+          "freq": 82.9800081,
+          "phase": 0.0,
+          "amp": 0.030029302356198686
+        },
+        {
+          "freq": 0.0,
+          "phase": 0.0,
+          "amp": 0.0
+        },
+        {
+          "freq": 0.0,
+          "phase": 0.0,
+          "amp": 0.0
+        },
+        {
+          "freq": 0.0,
+          "phase": 0.0,
+          "amp": 0.0
+        },
+        {
+          "freq": 0.0,
+          "phase": 0.0,
+          "amp": 0.0
+        },
+        {
+          "freq": 0.0,
+          "phase": 0.0,
+          "amp": 0.0
+        },
+        {
+          "freq": 0.0,
+          "phase": 0.0,
+          "amp": 0.0
+        }
+      ]
+    },
+    "0a21": {
+      "name": "420 S&H",
+      "active_profile": 1,
+      "enable_profile_asf": true,
+      "enable_sine_out": false,
+      "profiles": [
+        {
+          "freq": 0.0,
+          "phase": 0.0,
+          "amp": 0.0
+        },
+        {
+          "freq": 110.0000001,
+          "phase": 0.0,
+          "amp": 0.08367919693687315
+        },
+        {
+          "freq": 0.0,
+          "phase": 0.0,
+          "amp": 0.0
+        },
+        {
+          "freq": 0.0,
+          "phase": 0.0,
+          "amp": 0.0
+        },
+        {
+          "freq": 0.0,
+          "phase": 0.0,
+          "amp": 0.0
+        },
+        {
+          "freq": 0.0,
+          "phase": 0.0,
+          "amp": 0.0
+        },
+        {
+          "freq": 0.0,
+          "phase": 0.0,
+          "amp": 0.0
+        },
+        {
+          "freq": 0.0,
+          "phase": 0.0,
+          "amp": 0.0
+        }
+      ]
+    },
+    "0723": {
+      "name": "808 SLM",
+      "active_profile": 0,
+      "enable_profile_asf": true,
+      "enable_sine_out": false,
+      "profiles": [
+        {
+          "freq": 80.0000001,
+          "phase": 0.0,
+          "amp": 0.024475089376752027
+        },
+        {
+          "freq": 110.0000001,
+          "phase": 0.0,
+          "amp": 0.05474853422695442
+        },
+        {
+          "freq": 110.0000001,
+          "phase": 0.0,
+          "amp": 0.0
+        },
+        {
+          "freq": 0.0,
+          "phase": 0.0,
+          "amp": 0.0
+        },
+        {
+          "freq": 0.0,
+          "phase": 0.0,
+          "amp": 0.0
+        },
+        {
+          "freq": 0.0,
+          "phase": 0.0,
+          "amp": 0.0
+        },
+        {
+          "freq": 225.0000001,
+          "phase": 0.0,
+          "amp": 0.12249755915935631
+        },
+        {
+          "freq": 224.8,
+          "phase": 0.0,
+          "amp": 0.12445068501217661
+        }
+      ]
+    },
+    "0003": {
+      "name": "420 Slow Feedback",
+      "active_profile": 1,
+      "enable_profile_asf": true,
+      "enable_sine_out": false,
+      "profiles": [
+        {
+          "freq": 110.0000001,
+          "phase": 0.0,
+          "amp": 0.11999511656730036
+        },
+        {
+          "freq": 110.0000001,
+          "phase": 0.0,
+          "amp": 0
+        },
+        {
+          "freq": 0.0,
+          "phase": 0.0,
+          "amp": 0.017333983962147883
+        },
+        {
+          "freq": 0.0,
+          "phase": 0.0,
+          "amp": 0.0
+        },
+        {
+          "freq": 0.0,
+          "phase": 0.0,
+          "amp": 0.0
+        },
+        {
+          "freq": 0.0,
+          "phase": 0.0,
+          "amp": 0.0
+        },
+        {
+          "freq": 0.0,
+          "phase": 0.0,
+          "amp": 0.0
+        },
+        {
+          "freq": 0.0,
+          "phase": 0.0,
+          "amp": 0.0
+        }
+      ]
+    }
+  }
+}
